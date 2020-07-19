@@ -6,14 +6,18 @@ Based on: https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kK
 - lists the XRP amount and last 10 transactions for the given address
 - defaults to address provided from the environment (.env file)
 
+### 02-xrpl-memo-send
+Usage: 'node send-with-memo.js <xrpAmount> [destination]'
+Based on: https://gist.github.com/WietseWind/2b83b59a534d8994c6c9af73518291f6
+- sends the defined amount of XRPs (first param) to the destination address
+- sender address and secret are read from environment (.env file)
+- destination (second param) is defaulted to env value
+
 --- outstanding:
 
 *** https://runkit.com/wietsewind/
 
 *** gists:
-
-Send XRP with memo
-https://gist.github.com/WietseWind/2b83b59a534d8994c6c9af73518291f6
 
 Bithomp XRPL account replace with known name:
 https://gist.github.com/WietseWind/16512e7f90cc3f7c3e802663dca21189
