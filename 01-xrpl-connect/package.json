@@ -1,0 +1,15 @@
+{
+  "name": "01-xrpl-connect",
+  "version": "1.0.0",
+  "description": "Get balance and transactions from XRPL",
+  "main": "connect-and-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arsics",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "rippled-ws-client": "^1.0.0"
+  }
+}

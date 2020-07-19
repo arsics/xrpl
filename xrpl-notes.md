@@ -1,13 +1,16 @@
 # Projects
 
+### 01-xrpl-connect
+Usage: 'node connect-and-list.js [xrpl_address]'
+Based on: https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq
+- lists the XRP amount and last 10 transactions for the given address
+- defaults to address provided from the environment (.env file)
+
 --- outstanding:
 
 *** https://runkit.com/wietsewind/
 
 *** gists:
-
-List XRP amount & txs
-https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq
 
 Send XRP with memo
 https://gist.github.com/WietseWind/2b83b59a534d8994c6c9af73518291f6
